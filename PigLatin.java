@@ -26,7 +26,10 @@ public class PigLatin{
             return luca.startsVowel(userInput);
         }
         else{
-            return luca.startsConsonant(s)
+            return luca.startsConsonant(s);
         }
+    }
+    public static String startsTwoConsonant(String s){
+        
     }
 }
